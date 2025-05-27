@@ -12,7 +12,7 @@ public class facebook {
 		driver.manage().window().maximize();
 		driver.get("http://www.facebook.com");
 		String expTitle=driver.getTitle();
-		if(expTitle.equals("Facebook - log in or sign up"))
+		if(expTitle.equals("Facebook – log in or sign up"))
 		{
 			System.out.println("Pass");
 		}
